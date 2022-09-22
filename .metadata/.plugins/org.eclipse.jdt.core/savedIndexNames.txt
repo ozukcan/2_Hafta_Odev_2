@@ -1,0 +1,10 @@
+INDEX VERSION 1.131+C:\Java2022\2_Hafta_Odev_2\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1670916203.index
+932684231.index
+725658418.index
+1580586942.index
+4122157038.index
+987290143.index
+983548084.index
+3235290869.index

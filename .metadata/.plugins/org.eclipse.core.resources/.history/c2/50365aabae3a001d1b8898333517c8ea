@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Bir classı kullanabilmemiş için 'new'lenmiş olması gerekiyor.
+		//new dememizin sebebi stackte oluşturduğumuz  classı heap'e taşımamızı sağlıyor.
+		CustomerManager customerManager;
+		CustomerManager customerManager2 = new CustomerManager();
+		customerManager = customerManager2;
+		customerManager.Add();
+		customerManager.Remove();
+		customerManager.Update();
+	}
+
+}
+
+

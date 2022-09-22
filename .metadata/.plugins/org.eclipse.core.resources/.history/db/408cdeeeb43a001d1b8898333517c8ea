@@ -1,0 +1,10 @@
+
+public class Product {
+	
+	//Attribute/field deniyor.
+	int id;
+	String name;
+	String description; // açıklama
+	double price;
+	int stockAmount;
+}

@@ -1,0 +1,47 @@
+
+public class Product {
+	
+	//Attribute | field deniyor.
+	private int _id;
+	private String _name;
+	private String _description; // açıklama
+	private double _price;
+	private int _stockAmount;
+	private String _renk;
+	private String _kod;
+	
+	public int getId() {
+		return _id;
+	}
+	
+	public void setId(int id) {
+		_id = id; //this bu classta bulunan demek
+	}
+
+	private String getDescription() {
+		return _description;
+	}
+
+	private void setDescription(String _description) {
+		this._description = _description;
+	}
+
+	private String getName() {
+		return _name;
+	}
+
+	private void setName(String _name) {
+		this._name = _name;
+	}
+
+	private double get_price() {
+		return _price;
+	}
+
+	private void set_price(double _price) {
+		this._price = _price;
+	}
+
+
+
+}

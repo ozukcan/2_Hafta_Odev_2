@@ -1,0 +1,17 @@
+public class DortIslem {
+	public int Topla() {
+		
+	}
+	
+	public int Cikar() {
+		
+	}
+	
+	public int Bol() {
+		
+	}
+	
+	public int Carpma() {
+		
+	}
+}

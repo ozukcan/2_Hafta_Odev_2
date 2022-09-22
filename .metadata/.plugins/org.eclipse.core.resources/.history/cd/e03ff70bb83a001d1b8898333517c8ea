@@ -1,0 +1,21 @@
+
+public class Main {
+	// Yazılım geliştirme prensibi SOLID.
+	// S = Bir class sadece bir işi yapar,bir iş bloğu sadece bir işi yapar.
+	// Product classı hem attribute tutup hem de operasyon içermemeli, bunlar birbirinden ayrılmalı.
+	public static void main(String[] args) {
+		Product product = new Product();
+		product.setName("Laptop");
+		product.setId(1);
+		product.setDescription("Asus Laptop");
+		product.setPrice(5000);
+		product.setStockAmount(3);
+
+		ProductManager productManager = new ProductManager();
+		productManager.Add(product);
+
+		
+
+	}
+
+}

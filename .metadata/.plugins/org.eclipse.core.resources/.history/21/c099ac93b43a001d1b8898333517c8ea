@@ -1,0 +1,20 @@
+
+public class Main {
+	//Yazılım geliştirme prensibi SOLID.
+	//S = Bir class sadece bir işi yapar,bir iş bloğu sadece bir işi yapar.
+	//Product classı hem attribute tutup hem de operasyon içermemeli, bunlar birbirinden ayrılmalı.
+	public static void main(String[] args) {
+		Product product = new Product();
+		product.name = "Laptop";
+		product.id = 1;
+		product.description ="Asus Laptop";
+		product.price = 5000;
+		product.stockAmount = 3;
+		
+		ProductManager productManager = new ProductManager();
+		productManager.Add(product);
+		
+
+	}
+
+}

@@ -1,0 +1,3 @@
+Overloading = Aşırı yükleme demektir.Benzer işleri yapan 5-10 metot yerine bir metot kullanılmasıdır. 
+Inheritance = Miras demektir.Benzer özellikleri olan classların "extends" ile tek bir class'a bağlanarak kullanılmasını sağlar.
+Polymorphism kısmını tam olarak anlayamadım.

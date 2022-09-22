@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		DortIslem dortIslem = new DortIslem();
+		int sonuc = dortIslem.Topla(1,23,41,24,125,12,5,12,41,24,12,41,23,12,41,245);
+		System.out.println(sonuc);
+
+	}
+
+}

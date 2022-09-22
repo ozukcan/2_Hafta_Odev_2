@@ -1,0 +1,20 @@
+public class DortIslem {
+	public int Topla(int...sayilar) {
+		for (int i : sayilar) {
+			i += i;
+			return i;
+		}
+	}
+	
+	public int Cikar() {
+		
+	}
+	
+	public int Bol() {
+		
+	}
+	
+	public int Carpma() {
+		
+	}
+}
